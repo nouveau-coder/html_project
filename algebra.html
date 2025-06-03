@@ -2,6 +2,37 @@
 <html>
 <head>
 <title>Introduction to Algebra</title>
+<style>
+    /* Basic CSS for table styling - you can expand on this! */
+    table {
+        width: 80%; /* Adjust as needed */
+        border-collapse: collapse;
+        margin: 20px 0;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 12px 15px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        color: #333;
+    }
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    tr:hover {
+        background-color: #e6e6e6;
+    }
+    caption {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+        font-weight: bold;
+        text-align: left;
+    }
+</style>
 </head>
 
 <body>
@@ -14,8 +45,6 @@
     <main>
         <p>You can now select the topics you want to study.<br>It is recommended to follow the sequence in which the topics are listed as each topic builds on the last.</p>
 
-        ---
-
         <h2>List of Contents</h2>
         <ul>
             <li><a href="variables_and_expressions.html">Variables and Expressions</a></li>
@@ -24,7 +53,42 @@
             <li><a href="graphing_linear_equations.html">Graphing Linear Equations</a></li>
         </ul>
 
-        ---
+        <section>
+            <h3>Learning at a Glance</h3>
+            <table>
+                <caption>Key Learning Objectives per Topic</caption>
+                <thead>
+                    <tr>
+                        <th>Topic</th>
+                        <th>What You Will Learn</th>
+                        <th>Prerequisites</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="variables_and_expressions.html">Variables and Expressions</a></td>
+                        <td>Understand variables, constants, terms; evaluate expressions; simplify expressions.</td>
+                        <td>Basic arithmetic operations (addition, subtraction, multiplication, division).</td>
+                    </tr>
+                    <tr>
+                        <td><a href="equations.html">Equations (One-step, Two-step)</a></td>
+                        <td>Solve linear equations using inverse operations; check solutions.</td>
+                        <td>Understanding of variables and expressions.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="inequalities.html">Inequalities</a></td>
+                        <td>Solve and graph linear inequalities; interpret inequality solutions.</td>
+                        <td>Proficiency in solving equations.</td>
+                    </tr>
+                    <tr>
+                        <td><a href="graphing_linear_equations.html">Graphing Linear Equations</a></td>
+                        <td>Plot points; understand coordinate plane; graph lines using various methods (slope-intercept, point-slope).</td>
+                        <td>Understanding of equations and variables.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>This table provides a quick overview of what you'll achieve in each section.</p>
+        </section>
 
         <section>
             <h3>Why Follow the Sequence?</h3>
