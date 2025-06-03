@@ -1,27 +1,227 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Skill up Hub</title>
+    <title>Skill up Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #0056b3; /* Darker blue for header */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8em; /* Larger heading */
+        }
+
+        .container {
+            max-width: 960px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2, h3 {
+            color: #0056b3; /* Blue for subheadings */
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        h2 {
+            font-size: 2em;
+        }
+
+        h3 {
+            font-size: 1.5em;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        /* Styling for links */
+        .course-links ul {
+            list-style: none; /* Remove default bullet points */
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        .course-links li {
+            background-color: #e9f5ff; /* Light blue background for each link item */
+            margin-bottom: 10px;
+            padding: 12px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .course-links li:hover {
+            background-color: #d0e7ff; /* Slightly darker on hover */
+        }
+
+        .course-links a {
+            text-decoration: none; /* Remove underline */
+            color: #0056b3;
+            font-weight: bold;
+            display: block; /* Make the whole list item clickable */
+        }
+
+        .course-links a:hover {
+            color: #004085; /* Darker blue on hover */
+        }
+
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+        table thead tr {
+            background-color: #009879; /* Green header for table */
+            color: #ffffff;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        table th,
+        table td {
+            padding: 12px 15px;
+            border: 1px solid #dddddd;
+        }
+
+        table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3; /* Zebra stripping for rows */
+        }
+
+        table tbody tr:last-of-type {
+            border-bottom: 2px solid #009879;
+        }
+
+        table tbody tr.active-row {
+            font-weight: bold;
+            color: #009879;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #79c8ff; /* Light blue for footer links */
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>
-<h1>Welcome to Skill-Up Hub.</h1>
 
-<p>You have taken the first steps to fall in love with learning.<br>We will make it worth your time and effort.</p>
+    <header>
+        <h1>Welcome to Skill-Up Hub!</h1>
+        <p>Your journey to mastering new skills starts here.</p>
+    </header>
 
-<h2>For middle school</h2>
+    <div class="container">
+        <p>You have taken the first steps to fall in love with learning. We are dedicated to making it worth your time and effort with engaging and comprehensive courses.</p>
 
-<a href = "algebra.html">Here is our introductory course on algebra</a>
+        <h2>Our Core Offerings</h2>
+        <p>At Skill-Up Hub, we believe in building strong foundations. Our initial courses are designed for middle school students, providing a solid grasp of fundamental concepts in mathematics.</p>
 
-<a href = "geometry.html">Here is our introductory course on geometry</a>
+        <h3>Explore Our Introductory Math Courses:</h3>
+        <div class="course-links">
+            <ul>
+                <li><a href="algebra.html">Introduction to Algebra</a></li>
+                <li><a href="geometry.html">Introduction to Geometry</a></li>
+                <li><a href="numbers.html">Introduction to Number Theory</a></li>
+                <li><a href="data_probability.html">Introduction to Data & Probability</a></li>
+            </ul>
+        </div>
 
-<a href = "numbers.html">Here is our introductory course on number theory</a>
+        <h3>Why Choose Skill-Up Hub?</h3>
+        <p>We are passionate about making learning accessible and enjoyable. Here's what sets us apart:</p>
+        <ul>
+            <li><strong>Expert-Crafted Content:</strong> Our courses are developed by experienced educators.</li>
+            <li><strong>Clear & Concise Explanations:</strong> Complex topics broken down into easy-to-understand modules.</li>
+            <li><strong>Step-by-Step Learning:</strong> Guided lessons that build confidence with every concept.</li>
+            <li><strong>Continuous Updates:</strong> New content and improvements added regularly based on feedback.</li>
+        </ul>
 
-<a href = "data_probability.html">Here is our introductory course on data and probability</a>
+        <h3>Upcoming Courses & Features</h3>
+        <p>We are always expanding! Here's a glimpse of what's on our roadmap for future development:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Subject Area</th>
+                    <th>Course Type</th>
+                    <th>Expected Release</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mathematics</td>
+                    <td>Advanced Algebra</td>
+                    <td>Q4 2025</td>
+                </tr>
+                <tr>
+                    <td>Mathematics</td>
+                    <td>Pre-Calculus Essentials</td>
+                    <td>Q1 2026</td>
+                </tr>
+                <tr>
+                    <td>Computer Science</td>
+                    <td>Introduction to Python Programming</td>
+                    <td>Q2 2026</td>
+                </tr>
+                <tr class="active-row">
+                    <td>Soft Skills</td>
+                    <td>Critical Thinking & Problem Solving</td>
+                    <td>Early 2026</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Stay tuned for more exciting learning opportunities!</p>
+    </div>
 
-<a href = "about.html">About us</a>
+    <footer>
+        <p>&copy; 2025 Skill-Up Hub. All rights reserved.</p>
+        <p>
+            <a href="about.html">About Us</a> |
+            <a href="contact.html">Contact Us</a> |
+            <a href="privacy.html">Privacy Policy</a>
+        </p>
+    </footer>
 
-<a href = "contact.html">Contact us</a>
 </body>
 </html>
 
