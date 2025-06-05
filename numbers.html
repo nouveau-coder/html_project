@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Theory: Understanding Numbers - Skill-Up Hub</title>
+    <style>
+        /* General Body Styling (consistent across pages) */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Styling (consistent across pages) */
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            margin-top: 0;
+            font-size: 2.5em;
+            letter-spacing: 1px;
+        }
+
+        /* Main Content Area Styling (consistent across pages) */
+        main {
+            max-width: 960px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Headings Styling */
+        h2 {
+            color: #2980b9;
+            border-bottom: 2px solid #2980b9;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        h3 {
+            color: #34495e;
+            margin-top: 25px;
+        }
+
+        h4 {
+            color: #555;
+            margin-top: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        /* Navigation Links (Back to Home / Course Navigation) */
+        .navigation {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .navigation a {
+            display: inline-block;
+            margin-right: 15px;
+            text-decoration: none;
+            color: #2980b9;
+            font-weight: bold;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+
+        /* List of Contents (similar to algebra page) */
+        .content-list ul {
+            list-style: disc; /* Use traditional bullets */
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .content-list ul li {
+            margin-bottom: 8px;
+        }
+
+        .content-list ul li a {
+            color: #2c3e50;
+            text-decoration: none;
+            font-weight: normal;
+        }
+
+        .content-list ul li a:hover {
+            color: #3498db;
+            text-decoration: underline;
+        }
+
+        /* Table Styling (consistent with other pages) */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.95em;
+        }
+
+        table caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+            font-weight: normal;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Footer Styling (consistent across pages) */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #777;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Number Theory: Understanding Numbers</h1>
+        <p>Dive into the fascinating world of numbers and their properties.</p>
+    </header>
+
+    <main>
+        <nav class="navigation">
+            <a href="index.html">← Back to Courses</a>
+        </nav>
+
+        <section>
+            <h2>Welcome to Number Theory!</h2>
+            <p>Number theory is a captivating branch of pure mathematics primarily concerned with the properties and relationships of integers. It explores the depths of numbers, from prime numbers to factorization, providing insights into patterns and structures that are fundamental to many areas of mathematics and computer science.</p>
+            <p>This introductory course will guide you through the basic concepts, making the abstract world of numbers accessible and engaging. We recommend following the sequence of topics for the best learning experience.</p>
+        </section>
+
+        <section class="content-list">
+            <h2>Course Contents</h2>
+            <p>Here are the topics covered in this introductory Number Theory course:</p>
+            <ul>
+                <li><a href="numbers_integers_whole_natural.html">Integers, Whole Numbers, and Natural Numbers</a></li>
+                <li><a href="numbers_prime_composite.html">Prime and Composite Numbers</a></li>
+                <li><a href="numbers_factors_multiples.html">Factors, Multiples, and Divisibility Rules</a></li>
+                <li><a href="numbers_gcd_lcm.html">Greatest Common Divisor (GCD) and Least Common Multiple (LCM)</a></li>
+                <li><a href="numbers_fractions_decimals.html">Fractions and Decimals</a></li>
+                <li><a href="numbers_rational_irrational.html">Rational and Irrational Numbers</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Key Concepts at a Glance</h3>
+            <p>Number theory builds upon precise definitions of different types of numbers. Here are some fundamental terms:</p>
+            <table>
+                <caption>Basic Classification of Numbers</caption>
+                <thead>
+                    <tr>
+                        <th>Term</th>
+                        <th>Definition</th>
+                        <th>Example(s)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Natural Numbers</td>
+                        <td>Counting numbers, starting from 1.</td>
+                        <td>$\{1, 2, 3, \ldots\}$</td>
+                    </tr>
+                    <tr>
+                        <td>Whole Numbers</td>
+                        <td>Natural numbers including zero.</td>
+                        <td>$\{0, 1, 2, 3, \ldots\}$</td>
+                    </tr>
+                    <tr>
+                        <td>Integers</td>
+                        <td>All whole numbers and their negative counterparts.</td>
+                        <td>$\{\ldots, -2, -1, 0, 1, 2, \ldots\}$</td>
+                    </tr>
+                    <tr>
+                        <td>Prime Number</td>
+                        <td>A natural number greater than 1 that has no positive divisors other than 1 and itself.</td>
+                        <td>$2, 3, 5, 7, 11, \ldots$</td>
+                    </tr>
+                    <tr>
+                        <td>Composite Number</td>
+                        <td>A natural number greater than 1 that is not prime (i.e., has more than two positive divisors).</td>
+                        <td>$4, 6, 8, 9, 10, \ldots$</td>
+                    </tr>
+                    <tr>
+                        <td>Rational Number</td>
+                        <td>A number that can be expressed as a fraction $\frac{p}{q}$ of two integers, where $p$ is an integer and $q$ is a non-zero integer.</td>
+                        <td>$\frac{1}{2}, -3, 0.25, \sqrt{4}$</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h3>Why Study Number Theory?</h3>
+            <p>Number theory, despite its abstract nature, has profound applications in modern technology and everyday life. It's the backbone of cryptography, securing our online communications, and plays a vital role in computer science algorithms. Beyond practical uses, it fosters logical reasoning and pattern recognition.</p>
+            <h4>Applications and Benefits</h4>
+            <ul>
+                <li><strong>Cryptography:</strong> Essential for secure online transactions and data encryption.</li>
+                <li><strong>Computer Science:</strong> Forms the basis for algorithms, error correction codes, and hashing.</li>
+                <li><strong>Logical Reasoning:</strong> Develops strong analytical and problem-solving skills.</li>
+                <li><strong>Mathematical Foundations:</strong> Provides a deeper understanding of mathematical structures.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Part of the <a href="main_page.html">Skill-Up Hub</a> math curriculum.</p>
+        <p>&copy; 2025 Skill-Up Hub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
